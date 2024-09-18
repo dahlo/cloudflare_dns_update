@@ -10,7 +10,7 @@ fi
 script_dir=$(cd "$(dirname "${BASH_SOURCE[0]}")" >/dev/null 2>&1 && pwd)
 
 # Get the absolute path to the cloudflare_dns_update.sh script
-update_script="$script_dir/cloudflare_dns_update.sh"
+update_script="$script_dir/update.sh"
 
 # Check if the specified folder exists
 if [[ ! -d "$1" ]]; then
