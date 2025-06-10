@@ -53,7 +53,7 @@ You need to create a YAML file with the credentials to update the DNS with the f
 ```yaml
 api_token:   "your_cloudflare_api_token_here"
 zone_id:     "your_zone_id_here"
-record_name: "subdomain.example.com"
+record_name: "example.com"
 record_type: "A"  # Optional, defaults to "A"
 ```
 
@@ -62,7 +62,7 @@ record_type: "A"  # Optional, defaults to "A"
 ```yaml
 api_token:   "your_cloudflare_api_token_here"
 zone_id:     "your_zone_id_here"
-record_name: "subdomain1.example.com, subdomain2.example.com, www.example.com"
+record_name: "example.com, subdomain1.example.com, subdomain2.example.com, www.example.com, *.example.com"
 record_type: "A"  # Optional, defaults to "A"
 ```
 
