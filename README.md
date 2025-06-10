@@ -51,8 +51,8 @@ You need to create a YAML file with the credentials to update the DNS with the f
 ### Single Record Configuration
 
 ```yaml
-api_token: "your_cloudflare_api_token_here"
-zone_id: "your_zone_id_here"
+api_token:   "your_cloudflare_api_token_here"
+zone_id:     "your_zone_id_here"
 record_name: "subdomain.example.com"
 record_type: "A"  # Optional, defaults to "A"
 ```
@@ -60,8 +60,8 @@ record_type: "A"  # Optional, defaults to "A"
 ### Multiple Records Configuration
                                                                                                                                  
 ```yaml
-api_token: "your_cloudflare_api_token_here"
-zone_id: "your_zone_id_here"
+api_token:   "your_cloudflare_api_token_here"
+zone_id:     "your_zone_id_here"
 record_name: "subdomain1.example.com, subdomain2.example.com, www.example.com"
 record_type: "A"  # Optional, defaults to "A"
 ```
