@@ -10,6 +10,15 @@ update.sh example.com.yaml
 update.sh example.com.yaml 192.168.1.1
 ```
 
+## Automation
+
+Set up a cronjob that runs the script as oftens as you'd like by running `crontab -e` and adding:
+
+```bash
+# updating dns record every hour
+0 * * * * ~/cloudflare_dns_update/update.sh ~/cloudflare_dns_update/example.com.yaml
+```
+
 ## Configuration
 
 You need to create a YAML file with the credentials to update the DNS with the following format:
