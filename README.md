@@ -1,5 +1,7 @@
 # Cloudflare DNS updater
 
+A bash script to automate DNS record updating. Set up as a cron job and it will update the DNS records you specify to the current external IP of the server, or a user-specified IP.
+
 ## Usage
 
 ```bash
